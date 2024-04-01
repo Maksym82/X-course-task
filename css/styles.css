@@ -1,0 +1,27 @@
+.header {
+  padding: 20px 15px;
+  background-color: rgb(165, 163, 163);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.header-logo {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.shopping-cart {
+  width: 42px;
+  height: 42px;
+  fill: blueviolet;
+}
