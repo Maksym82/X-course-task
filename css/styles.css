@@ -1,10 +1,43 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+button {
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Header */
 .header {
   padding: 20px 15px;
-  background-color: rgb(165, 163, 163);
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 1280px;
+  border: 1px solid black;
+  margin: 0 auto;
 }
 
 .header-nav {
@@ -21,7 +54,128 @@
 }
 
 .shopping-cart {
-  width: 42px;
-  height: 42px;
+  width: 70px;
+  height: 70px;
   fill: blueviolet;
+}
+
+.shopping-cart-img {
+  width: 70px;
+  height: 70px;
+}
+
+.header-button {
+  width: 100px;
+  height: 60px;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.header-button__link {
+  text-decoration: none;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.header-avatar-img {
+  width: 70px;
+  height: 70px;
+}
+
+.header-button-username {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header-username-text {
+  margin-bottom: 0;
+  font-size: 18px;
+  color: black;
+}
+
+.header-username-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+/* Authorization */
+.authorization {
+  width: 1280px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 100px 15px;
+}
+
+.authorization-box {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.authorization-img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.authorization-form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.authorization-label {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.authorization-input {
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  text-align: center;
+  outline: none;
+  border: 1px solid gray;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+.authorization-input::placeholder {
+  font-size: 18px;
+}
+
+.authorization-button {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 60px;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  font-size: 25px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background-color 300ms linear;
+}
+
+.authorization-button:hover,
+.authorization-button:focus {
+  background-color: rgb(82, 193, 197);
 }
