@@ -72,6 +72,12 @@ ul {
   border-radius: 8px;
   font-size: 18px;
   text-decoration: none;
+  cursor: pointer;
+  transition: background-color 300ms linear;
+}
+
+.header-button:hover {
+  background-color: rgb(82, 193, 197);
 }
 
 .header-button__link {
