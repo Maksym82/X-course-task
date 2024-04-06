@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  line-height: 1.5;
 }
 
 img {
@@ -256,4 +257,28 @@ ul {
 .price-select:hover,
 .price-select:focus {
   box-shadow: 0 0 0 0.25rem rgb(95, 158, 160, 0.5);
+}
+
+/* Books-card */
+.books-card {
+  width: 250px;
+  padding: 15px 10px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.books-card-image {
+  width: 200px;
+  height: 170px;
+  margin: 0 auto;
+}
+
+.book-card-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.book-card-author {
+  font-size: 16px;
+  margin-bottom: 0;
 }
