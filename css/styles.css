@@ -188,7 +188,15 @@ ul {
 
 /* Books-list */
 .books {
-  padding: 30px 20px;
+  width: 1280px;
+  padding: 30px 15px;
+  margin: 0 auto;
+}
+
+.books-form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .books-search {
@@ -207,12 +215,12 @@ ul {
   height: 50px;
   font-size: 18px;
   outline: none;
-  transition: border 300ms linear;
+  transition: box-shadow 300ms linear;
 }
 
 .books-input:hover,
 .books-input:focus {
-  border: 2px solid cadetblue;
+  box-shadow: 0 0 0 0.25rem rgb(95, 158, 160, 0.5);
 }
 
 .search-button {
@@ -232,4 +240,20 @@ ul {
 .search-img {
   width: 30px;
   height: 30px;
+}
+
+.price-select {
+  width: 200px;
+  height: 50px;
+  padding: 6px 6px;
+  border-radius: 8px;
+  border: 1px solid #aaa6a6;
+  cursor: pointer;
+  outline: none;
+  transition: box-shadow 400ms linear;
+}
+
+.price-select:hover,
+.price-select:focus {
+  box-shadow: 0 0 0 0.25rem rgb(95, 158, 160, 0.5);
 }
