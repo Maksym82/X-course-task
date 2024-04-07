@@ -374,3 +374,7 @@ ul {
 .specific-box-item:not(:last-child) {
   margin-bottom: 5px;
 }
+
+.specific-box-description {
+  width: 100%;
+}
