@@ -242,6 +242,7 @@ ul {
 .search-img {
   width: 30px;
   height: 30px;
+  
 }
 
 .price-select {
@@ -320,6 +321,13 @@ ul {
   border: none;
   border-radius: 8px;
   padding: 0;
+  cursor: pointer;
+  transition: background-color 300ms linear;
+}
+
+.books-card-button:hover,
+.books-card-button:focus {
+  background-color: rgb(82, 193, 197);
 }
 
 .card-link {
