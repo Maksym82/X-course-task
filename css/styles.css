@@ -417,6 +417,9 @@ ul {
 .count-input {
   width: 100px;
   height: 40px;
+  border-radius: 12px;
+  border: 5px solid gray;
+  outline: none;
 }
 
 .second-container-button {
