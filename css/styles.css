@@ -343,6 +343,11 @@ ul {
   margin: 0 auto;
 }
 
+.specific-container {
+  display: flex;
+  gap: 10px;
+}
+
 .first-box {
   padding: 15px 10px;
   width: 700px;
@@ -377,4 +382,57 @@ ul {
 
 .specific-box-description {
   width: 100%;
+}
+
+.second-container {
+  width: 500px;
+  height: 250px;
+  padding: 30px;
+  border: 1px solid #aaa6a6;
+}
+
+.second-container-price {
+  font-size: 26px;
+  color: black;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.count-text {
+  font-size: 26px;
+  color: black;
+  margin-bottom: 20px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.count-input {
+  width: 100px;
+  height: 40px;
+}
+
+.second-container-button {
+  display: block;
+  width: 120px;
+  height: 50px;
+  margin-left: auto;
+  padding: 0;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.second-container-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
 }
