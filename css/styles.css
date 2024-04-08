@@ -345,6 +345,7 @@ ul {
 
 .specific-container {
   display: flex;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -387,7 +388,7 @@ ul {
 .second-container {
   width: 500px;
   height: 250px;
-  padding: 30px;
+  padding: 30px 30px;
   border: 1px solid #aaa6a6;
 }
 
@@ -402,7 +403,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .count-text {
@@ -428,6 +429,12 @@ ul {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  transition: background-color 300ms linear;
+}
+
+.second-container-button:hover,
+.second-container-button:focus {
+  background-color: rgb(82, 193, 197);
 }
 
 .second-container-link {
