@@ -470,7 +470,28 @@ ul {
 }
 
 .footer-link:hover {
-  color: rgb(82, 193, 197);;
+  color: rgb(82, 193, 197);
   font-size: 32px;
   font-weight: 600;
+}
+
+/* Cart */
+.cart {
+  max-width: 1280px;
+  padding: 200px 15px;
+  margin: 0 auto;
+}
+
+.cart-img {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.cart-text {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0;
 }
