@@ -446,3 +446,23 @@ ul {
   font-size: 20px;
   font-weight: 500;
 }
+
+/* Footer */
+.footer {
+  max-width: 1280px;
+  text-align: center;
+  padding: 30px;
+  margin: 0 auto;
+  border: 1px solid #aaa6a6;
+}
+
+.footer-text {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: blue;
+}
