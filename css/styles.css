@@ -465,4 +465,12 @@ ul {
 .footer-link {
   text-decoration: none;
   color: blue;
+  font-weight: 600;
+  transition: color, font-weight, font-size 300ms linear;
+}
+
+.footer-link:hover {
+  color: blueviolet;
+  font-size: 32px;
+  font-weight: 600;
 }
