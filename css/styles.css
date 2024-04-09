@@ -464,13 +464,13 @@ ul {
 
 .footer-link {
   text-decoration: none;
-  color: blue;
+  color: cadetblue;
   font-weight: 600;
   transition: color, font-weight, font-size 300ms linear;
 }
 
 .footer-link:hover {
-  color: blueviolet;
+  color: rgb(82, 193, 197);;
   font-size: 32px;
   font-weight: 600;
 }
