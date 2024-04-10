@@ -177,7 +177,17 @@ ul {
   padding: 50px 0;
 }
 
+@media screen and (min-width: 768px) {
+  .authorization {
+    max-width: 768px;
+  }
+}
 
+@media screen and (min-width: 1280px) {
+  .authorization {
+    max-width: 1280px;
+  }
+}
 
 .authorization-box {
   display: flex;
@@ -187,10 +197,17 @@ ul {
 }
 
 .authorization-img {
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   margin: 0 auto;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .authorization-img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .authorization-form {
@@ -216,6 +233,13 @@ ul {
   border: 1px solid gray;
   padding: 10px 15px;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .authorization-input {
+    width: 200px;
+    
+  }
 }
 
 .authorization-input::placeholder {
