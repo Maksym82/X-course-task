@@ -29,17 +29,52 @@ ul {
   list-style-type: none;
 }
 
+.container {
+  max-width: 320px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
 /* Header */
 .header {
-  padding: 20px 15px;
+  padding: 20px 0;
   background-color: white;
+  border: 1px solid black;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    max-width: 1280px;
+  }
+}
+
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1280px;
-  border: 1px solid black;
-  margin: 0 auto;
 }
+
 
 .header-nav {
   display: flex;
@@ -48,10 +83,28 @@ ul {
   gap: 30px;
 }
 
+@media screen and (max-width: 767px) {
+  .header-nav {
+    display: none;
+  }
+}
+
 .header-logo {
-  font-size: 30px;
+  font-size: 16px;
   text-decoration: none;
   color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .header-logo {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-logo {
+    font-size: 28px;
+  }
 }
 
 .shopping-cart {
@@ -118,16 +171,18 @@ ul {
 
 /* Authorization */
 .authorization {
-  width: 1280px;
+  max-width: 320px;
   margin: 0 auto;
   background-color: white;
-  padding: 100px 15px;
+  padding: 50px 0;
 }
+
+
 
 .authorization-box {
   display: flex;
   flex-direction: column;
-  width: 450px;
+  /* width: 450px; */
   margin: 0 auto;
 }
 
