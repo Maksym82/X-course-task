@@ -119,7 +119,7 @@ ul {
 
 .header-button {
   width: 100px;
-  height: 60px;
+  height: 50px;
   background-color: cadetblue;
   border: none;
   border-radius: 8px;
@@ -226,7 +226,7 @@ ul {
 .authorization-input {
   display: block;
   margin: 0 auto;
-  width: 200px;
+  width: 100%;
   height: 60px;
   border-radius: 8px;
   text-align: center;
@@ -238,7 +238,7 @@ ul {
 
 @media screen and (min-width: 768px) {
   .authorization-input {
-    width: 260px;
+    width: 320px;
   }
 }
 
@@ -249,7 +249,7 @@ ul {
 .authorization-button {
   display: block;
   margin: 0 auto;
-  width: 200px;
+  width: 100%;
   height: 60px;
   background-color: cadetblue;
   border: none;
@@ -263,7 +263,7 @@ ul {
 
 @media screen and (min-width: 768px) {
   .authorization-button {
-    width: 260px;
+    width: 320px;
   }
 }
 
@@ -535,15 +535,22 @@ ul {
 /* Footer */
 .footer {
   max-width: 320px;
+  margin: 0 auto;
   text-align: center;
   padding: 20px;
   border: 1px solid #aaa6a6;
 }
+
+@media screen and (min-width: 768px) {
+  .footer {
+    max-width: 768px;
+    padding: 30px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .footer {
     max-width: 1280px;
-    text-align: center;
-    padding: 30px;
   }
 }
 
@@ -559,23 +566,30 @@ ul {
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .footer-text {
-    font-size: 24px;
-  }
-}
-
 .footer-link {
   text-decoration: none;
   color: cadetblue;
+  font-size: 16px;
   font-weight: 600;
   transition: color, font-weight, font-size 300ms linear;
 }
 
 .footer-link:hover {
   color: rgb(82, 193, 197);
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-link {
+    font-size: 20px;
+  }
+
+  .footer-link:hover {
+    color: rgb(82, 193, 197);
+    font-size: 24px;
+    font-weight: 600;
+  }
 }
 
 /* Cart */
