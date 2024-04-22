@@ -281,10 +281,6 @@ ul {
   width: 1280px;
   padding: 30px 15px;
   margin: 0 auto;
-  background-image: url("../images/book-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .books-form {
