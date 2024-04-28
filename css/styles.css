@@ -168,6 +168,24 @@ ul {
   font-weight: 600;
 }
 
+/* Burger menu */
+.burger-menu-open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-burger-open {
+  width: 30px;
+  height: 30px;
+}
+
 /* Authorization */
 .authorization {
   max-width: 320px;
