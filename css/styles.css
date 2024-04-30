@@ -201,7 +201,7 @@ ul {
   width: 100%;
   height: 100%;
   padding: 100px 30px;
-  background-color: cadetblue;
+  background-color: #93abae;  
   transform: translateX(-100%);
   transition: transform 500ms linear;
 }
@@ -219,8 +219,8 @@ ul {
 
 .burger-menu-close {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 20px;
+  right: 20px;
   width: 32px;
   height: 32px;
   display: flex;
