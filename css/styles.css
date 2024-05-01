@@ -201,7 +201,7 @@ ul {
   width: 100%;
   height: 100%;
   padding: 100px 30px;
-  background-color: #93abae;  
+  background-color: #93abae;
   transform: translateX(-100%);
   transition: transform 500ms linear;
 }
@@ -363,9 +363,22 @@ ul {
 
 /* Books-list */
 .books {
-  width: 1280px;
-  padding: 30px 15px;
+  max-width: 320px;
+  padding: 20px 15px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .books {
+    max-width: 768px;
+    padding: 30px 15px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .books {
+    max-width: 1280px;
+  }
 }
 
 .books-form {
