@@ -807,9 +807,21 @@ ul {
 
 /* Cart-with-books */
 .cart-with-books {
-  max-width: 1280px;
+  max-width: 320px;
   margin: 0 auto;
   padding: 100px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-with-books {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cart-with-books {
+    max-width: 1280px;
+  }
 }
 
 .second-button {
