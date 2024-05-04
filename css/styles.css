@@ -333,7 +333,8 @@ ul {
 }
 
 .authorization-input::placeholder {
-  font-size: 18px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .authorization-button {
@@ -832,10 +833,20 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1100px;
   margin: 0 auto;
   padding: 15px;
   border: 1px solid #aaa6a6;
+}
+
+@media screen and (min-width: 1280px) {
+  .cart-with-books__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    padding: 15px;
+    border: 1px solid #aaa6a6;
+  }
 }
 
 .cart-with-books__list:not(:last-child) {
@@ -843,7 +854,27 @@ ul {
 }
 
 .cart-with-books__item {
-  font-size: 20px;
+  font-size: 16px;
   color: black;
   font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-with-books__item {
+    font-size: 20px;
+  }
+}
+
+.cart__total-price {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+  .cart__total-price {
+    font-size: 20px;
+  }
 }
