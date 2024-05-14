@@ -666,8 +666,16 @@ ul {
   margin-bottom: 0;
 }
 
+.specific-book__button {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
 .count-input {
-  width: 100px;
+  width: 40px;
   height: 40px;
   border-radius: 12px;
   border: 3px solid gray;
