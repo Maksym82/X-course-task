@@ -333,7 +333,6 @@ ul {
 
 .authorization-input::placeholder {
   font-size: 16px;
-  
 }
 
 .authorization-button {
@@ -672,6 +671,13 @@ ul {
   border-radius: 8px;
   border: 1px solid gray;
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .specific-book__button {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .count-input {
